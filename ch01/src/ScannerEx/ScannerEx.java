@@ -1,4 +1,4 @@
-package Constant;
+package ScannerEx;
 
 import java.util.Scanner;
 
