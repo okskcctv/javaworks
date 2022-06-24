@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Seats {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// 좌석배치
 		Scanner sc = new Scanner(System.in);
 		int i, j;
 		int rowNum, colNum;
