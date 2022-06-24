@@ -15,12 +15,12 @@ public class Seats {
 		people = sc.nextInt();
 		System.out.print("좌석 열의 수: ");
 		rowNum = sc.nextInt();
-		colNum = people / rowNum;
+		colNum = people / rowNum + 1;
 		for(i=0;i<colNum;i++) {
 			for(j=1;j<=rowNum;j++) {
-				if(i*colNum+j > people)
+				if(i*rowNum+j > people)
 					break;
-				System.out.printf("좌석%d", i * colNum + j);
+				System.out.printf("좌석%d", i * rowNum + j);
 				if(j<rowNum)
 					System.out.print(" ");
 			}
