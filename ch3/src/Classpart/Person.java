@@ -6,9 +6,12 @@ public class Person {
 	float weight;
 	
 	// 생성자
-	public Person() {}
+	public Person() {
+		System.out.println("사람을 생성합니다.");
+	}
 	
 	public Person(String n) { // 외부에서 매개변수 입력
+		System.out.println("사람을 생성합니다.");
 		name = n;
 	}
 	
@@ -16,6 +19,7 @@ public class Person {
 		name = n;
 		height = h;
 		weight = w;
+		System.out.println("사람을 생성합니다.");
 	}
 	
 	// 매서드
