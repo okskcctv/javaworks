@@ -8,4 +8,8 @@ public class Product {
 		this.productName = productName;
 		this.price = price;
 	}
+	
+	public String showInfo() {
+		return productName + " = " + price;
+	}
 }
