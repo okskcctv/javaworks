@@ -1,4 +1,4 @@
-package Singleton;
+package Singleton.car;
 
 public class Car {
 	// 차의 고유번호 증가

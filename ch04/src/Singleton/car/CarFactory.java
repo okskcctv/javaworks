@@ -1,4 +1,4 @@
-package Singleton;
+package Singleton.car;
 
 public class CarFactory {
 	

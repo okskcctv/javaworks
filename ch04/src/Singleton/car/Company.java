@@ -1,4 +1,4 @@
-package Singleton;
+package Singleton.car;
 
 public class Company {
 	// 유일하게 생성한 인스턴스(필요할때 바로 사용하기 위함)
