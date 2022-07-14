@@ -1,4 +1,4 @@
-package banking;
+package banking_arrayList;
 
 public class Account {
 	private String ano;

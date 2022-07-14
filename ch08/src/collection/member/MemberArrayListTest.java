@@ -10,6 +10,7 @@ public class MemberArrayListTest {
 		memberList.addMember(new Member(1002, "손흥민"));
 		memberList.addMember(new Member(1003, "이지은"));
 		memberList.addMember(new Member(1004, "김영미"));
+		memberList.addMember(new Member(1002, "손흥민"));
 		
 		// 회원 전체 검색
 		memberList.showAllMember();
